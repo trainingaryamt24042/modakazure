@@ -1,0 +1,9 @@
+{
+	"name": "modakstory-1-df",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "de77c9c7-e674-4769-9cf8-0b24e92f16b2",
+		"tenantId": "fdcf6fad-c3f0-4c66-8ca1-1e3aaac65150"
+	}
+}
