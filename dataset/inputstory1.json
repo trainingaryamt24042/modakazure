@@ -1,0 +1,45 @@
+{
+	"name": "inputstory1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employees.csv",
+				"folderPath": "modakstory1",
+				"container": "input-mt24042"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Employee ID",
+				"type": "String"
+			},
+			{
+				"name": "First Name",
+				"type": "String"
+			},
+			{
+				"name": "Last Name",
+				"type": "String"
+			},
+			{
+				"name": "Department",
+				"type": "String"
+			},
+			{
+				"name": "Salary",
+				"type": "String"
+			}
+		]
+	}
+}

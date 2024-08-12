@@ -31,7 +31,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "story2table"
+			"table": "story3table"
 		}
 	}
 }
