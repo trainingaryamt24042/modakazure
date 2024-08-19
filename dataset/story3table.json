@@ -1,0 +1,37 @@
+{
+	"name": "story3table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "as_Employee_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "as_First_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "as_Last_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "as_Department",
+				"type": "varchar"
+			},
+			{
+				"name": "as_Salary",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "story3table"
+		}
+	}
+}
