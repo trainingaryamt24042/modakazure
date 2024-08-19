@@ -2,16 +2,16 @@
 	"name": "outputstory1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
+				"type": "AzureBlobStorageLocation",
 				"folderPath": "modakstory1output",
-				"fileSystem": "outputmt24042"
+				"container": "outputmt24042"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
