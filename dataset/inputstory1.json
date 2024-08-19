@@ -2,17 +2,17 @@
 	"name": "inputstory1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
+				"type": "AzureBlobFSLocation",
 				"fileName": "employees.csv",
 				"folderPath": "modakstory1",
-				"container": "input-mt24042"
+				"fileSystem": "input-mt24042"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
