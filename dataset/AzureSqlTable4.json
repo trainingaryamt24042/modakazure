@@ -1,0 +1,44 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "First_name",
+				"type": "varchar"
+			},
+			{
+				"name": "Last_name",
+				"type": "varchar"
+			},
+			{
+				"name": "age",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "marks",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "grades",
+				"type": "char"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "story5b"
+		}
+	}
+}
