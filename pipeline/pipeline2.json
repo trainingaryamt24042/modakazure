@@ -49,7 +49,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "outputstory1",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					}
 				]
