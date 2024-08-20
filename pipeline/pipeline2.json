@@ -43,7 +43,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "story2",
+						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference"
 					}
 				],

@@ -28,6 +28,10 @@
 				"name": "Salary",
 				"type": "varchar"
 			}
-		]
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "story2table"
+		}
 	}
 }
