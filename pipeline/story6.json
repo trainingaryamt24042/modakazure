@@ -49,7 +49,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText5",
+						"referenceName": "file1",
 						"type": "DatasetReference"
 					}
 				]
