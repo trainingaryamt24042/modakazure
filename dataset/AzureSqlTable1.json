@@ -1,6 +1,10 @@
 {
 	"name": "AzureSqlTable1",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -24,10 +28,6 @@
 				"name": "Salary",
 				"type": "varchar"
 			}
-		],
-		"typeProperties": {
-			"schema": "dbo",
-			"table": "story3table"
-		}
+		]
 	}
 }
